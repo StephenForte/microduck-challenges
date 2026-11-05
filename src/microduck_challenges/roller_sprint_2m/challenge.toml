@@ -12,12 +12,12 @@ seed           = 1
 
 [params.speed_reward]
 label = "Wheel speed reward"
-value = 10.0
+value = 10.5714285714286
 min   = 2.0
 max   = 20.0
 
 [params.upright_reward]
 label = "Stay upright"
-value = 2.0
+value = 2.14285714285714
 min   = 0.5
 max   = 5.0

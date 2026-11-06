@@ -21,9 +21,9 @@ max   = 5.0
 
 [params.progress_reward]
 label = "Walk forward"
-value = 16.0
+value = 17.5
 min   = 0.0
-max   = 16.0
+max   = 26.0
 
 [params.freeze_reward]
 label = "Freeze while watched"

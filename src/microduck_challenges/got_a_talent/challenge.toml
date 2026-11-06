@@ -17,18 +17,18 @@ seed           = 1
 
 [params.head_reward]
 label = "Follow the head moves"
-value = 0.75
+value = 1.03174603174603
 min   = 0.0
 max   = 2.0
 
 [params.stillness_reward]
 label = "Hold still between moves"
-value = 2.0
+value = 2.07936507936508
 min   = 0.0
 max   = 4.0
 
 [params.upright_reward]
 label = "Stay upright"
-value = 2.5
+value = 2.57142857142857
 min   = 0.5
 max   = 5.0

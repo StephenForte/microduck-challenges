@@ -6,26 +6,32 @@ kind  = "perpetual"
 
 [recipe]                  # the first training, as is
 num_envs       = 4096
-max_iterations = 3888
-seed           = 8
+max_iterations = 2888
+seed           = 48
 
 [params.forward_reward]
 label = "Follow the speed order"
-value = 5.0
+value = 5.1
 min   = 0.5
-max   = 5.0
+max   = 6.0
 
 [params.upright_reward]
 label = "Stay upright"
-value = 1.53571428571429
+value = 1.25
 min   = 0.5
 max   = 5.0
 
 [params.step_reward]
 label = "Lift your feet"
-value = 4.52380952380952
+value = 5
 min   = 0.0
 max   = 6.0
+
+[params.min_slope_deg]
+label = "Shallowest training slope (°)"
+value = 8.0
+min   = 0.0
+max   = 10.0
 
 [params.max_slope_deg]
 label = "Steepest training slope (°)"

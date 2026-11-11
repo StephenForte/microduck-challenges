@@ -7,8 +7,8 @@ kind  = "perpetual"
 
 [recipe]                  # the first training, as is
 num_envs       = 2048
-max_iterations = 6500
-seed           = 10187
+max_iterations = 2888
+seed           = 8
 
 [params.speed_reward] # skate3: now the Wheel Speed Reward (was wheel_speed, 10.0)
 #label = "Wheel speed reward"
@@ -16,12 +16,12 @@ seed           = 10187
 #min   = 2.0
 #max   = 30.0
 label = "Forward speed reward"
-value = 12.2
+value = 12.7142857142857
 min   = 2.0
 max   = 20.0
 
 [params.upright_reward]
 label = "Stay upright"
-value = 1.1
+value = 1.27380952380952
 min   = 0.5
 max   = 7.0

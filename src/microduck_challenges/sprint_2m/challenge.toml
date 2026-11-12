@@ -13,7 +13,7 @@ seed           = 48
 label = "Follow the speed order"
 value = 4.96428571428571
 min   = 0.5
-max   = 5.0
+max   = 6.0
 
 [params.upright_reward]
 label = "Stay upright"

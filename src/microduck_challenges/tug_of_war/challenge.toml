@@ -15,19 +15,19 @@ seed           = 8
 
 [params.pull_reward]
 label = "Win ground"
-value = 2.01785714285714
+value = 2.05
 min   = 0.5
 max   = 5.0
 
 [params.back_reward]
 label = "Walk backwards"
-value = 3.15873015873016
+value = 2.75
 min   = 0.0
 max   = 4.0
 
 [params.upright_reward]
 label = "Keep the trunk level"
-value = 1.06349206349206
+value = 1.0
 min   = 0.0
 max   = 4.0
 
@@ -37,6 +37,6 @@ max   = 4.0
 # course. Out of that for 0.3 s ends the training episode and costs that many pits.
 [params.stay_upright]
 label = "Stay upright"
-value = 0.198412698412698
+value = 0.05
 min   = 0.0
 max   = 2.0
